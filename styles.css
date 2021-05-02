@@ -1,0 +1,64 @@
+:root {
+    --primary-color : #6D28D9    ;
+    --secondary-color : #A78BFA    ;
+    --light-color : #DDD6FE    ;
+    --dark-color : #4C1D95    ;
+}
+html {
+    height:100%;
+}
+body {
+    margin: 0px;
+    text-align: center;
+    height:100%;
+}
+.navigation-bar {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    font-size: large;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.header {
+}
+.body-of-website {
+    display: block;
+    margin: auto;
+    height: calc(100% - 188px);
+}
+.column {
+    float:left;
+}
+.library-components {
+    height: 100%;
+    width : 25%;
+}
+.library-components-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.library-components-list .components-items{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.library-components-list-variants {
+    height: 100%;
+    width : 50%;
+}
+.library-components-list-variants-code {
+    height: 100%;
+    width : 25%;
+}
+.html-code-sec, .css-code-sec{
+    height: 50%;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    font-size: large;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
